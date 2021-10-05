@@ -1,0 +1,40 @@
+#######################################
+# Syntax Coloring Map For ButtonсController
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+ButtonсController	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2) 
+#######################################
+
+getButtonState		KEYWORD2
+getLastState		KEYWORD2
+isButtonClosed		KEYWORD2
+resetButtonState	KEYWORD2
+setDebounce		KEYWORD2
+setTimeout		KEYWORD2
+setDoubleClickTimeout	KEYWORD2
+setInputType		KEYWORD2
+setButtonType		KEYWORD2
+setVirtualClickOn	KEYWORD2
+setLongClickMode	KEYWORD2
+setLongClickTimeout	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+PULL_UP			LITERAL1
+PULL_DOWN		LITERAL1
+button_RELEASED		LITERAL1
+button_PRESSED		LITERAL1
+button_UP		LITERAL1
+button_DOWN		LITERAL1
+button_DBLCLICK		LITERAL1
+button_ONECLICK		LITERAL1
+button_LONGCLICK	LITERAL1
