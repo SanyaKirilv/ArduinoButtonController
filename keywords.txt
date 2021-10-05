@@ -13,17 +13,12 @@ ButtonсController	KEYWORD1
 #######################################
 
 getButtonState		KEYWORD2
-getLastState		KEYWORD2
-isButtonClosed		KEYWORD2
-resetButtonState	KEYWORD2
 setDebounce		KEYWORD2
 setTimeout		KEYWORD2
 setDoubleClickTimeout	KEYWORD2
-setInputType		KEYWORD2
-setButtonType		KEYWORD2
-setVirtualClickOn	KEYWORD2
-setLongClickMode	KEYWORD2
-setLongClickTimeout	KEYWORD2
+setType			KEYWORD2
+setButtonFlag		KEYWORD2
+setButtonUpClick	KEYWORD2
 
 #######################################
 # Constants (LITERAL1)
@@ -32,9 +27,8 @@ setLongClickTimeout	KEYWORD2
 PULL_UP			LITERAL1
 PULL_DOWN		LITERAL1
 button_RELEASED		LITERAL1
-button_PRESSED		LITERAL1
 button_UP		LITERAL1
-button_DOWN		LITERAL1
-button_DBLCLICK		LITERAL1
-button_ONECLICK		LITERAL1
-button_LONGCLICK	LITERAL1
+button_PRESSED		LITERAL1
+button_HOLDED		LITERAL1
+button_CLICK		LITERAL1
+button_DOUBLECLICK	LITERAL1

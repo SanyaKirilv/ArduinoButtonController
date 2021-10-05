@@ -4,7 +4,7 @@
 ButtonController::ButtonController(byte pin, byte mode)
 {
   _pin = pin;
-  setType(mode);
+  setMode(mode);
 }
 
 void ButtonController::getButtonState()
@@ -54,10 +54,10 @@ void ButtonController::getButtonState()
   }
 }
 
-void ButtonController::setType(byte type)
+void ButtonController::setMode(byte mode)
 {
-  _type = type;
-  switch (type)
+  _mode = mode;
+  switch (mode)
   {
   case PULL_UP:
     pinMode(_pin, INPUT_PULLUP);
@@ -86,7 +86,7 @@ void ButtonController::setDoubleClickTimeout(word new_timeout)
 bool ButtonController::getButtonFlag()
 {
   bool val = digitalRead(_pin);
-  if (_type == PULL_UP)
+  if (_mode == PULL_UP)
   {
     val = !val;
   }
