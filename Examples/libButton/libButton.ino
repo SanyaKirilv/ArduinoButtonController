@@ -16,7 +16,7 @@ void loop()
     bt = button.buttonState;
     switch (bt)
     {
-      case BUTTON_RELEASED:
+      case button_RELEASED:
         //Serial.println("Button is released");
         break;
       case button_UP:
